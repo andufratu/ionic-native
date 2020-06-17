@@ -10,9 +10,9 @@ export interface MusicControlsOptions {
   hasPrev: boolean;
   hasNext: boolean;
   hasClose: boolean;
-  album:string;
+  album: string;
   duration: number;
-  elapsed:number;
+  elapsed: number;
   ticker: string;
 }
 

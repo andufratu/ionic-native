@@ -188,6 +188,9 @@ export class Facebook {
   @Cordova()
   static getAccessToken(): Promise<string> { return; }
 
+  @Cordova()
+  static checkHasCorrectPermissions(permissions: string[]): Promise<any> { return; }
+
   /**
    * Show one of various Facebook dialogs. Example of options for a Share dialog:
    *

@@ -1,6 +1,6 @@
 {
-  "name": "ionic-native",
-  "version": "2.9.0",
+  "name": "@priorhq/ionic-native",
+  "version": "2.9.1",
   "description": "Native plugin wrappers for Cordova and Ionic with TypeScript, ES6+, Promise and Observable support",
   "main": "dist/es5/index.js",
   "module": "dist/esm/index.js",
@@ -61,7 +61,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/driftyco/ionic-native.git"
+    "url": "https://github.com/priorhq/ionic-native.git"
   },
   "license": "MIT",
   "bugs": {

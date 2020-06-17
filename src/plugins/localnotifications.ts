@@ -291,7 +291,7 @@ export class LocalNotifications {
    * @returns {Promise<boolean>}
    */
   @Cordova()
-  static registerPermission(): Promise<boolean> { return; }
+  static requestPermission(): Promise<boolean> { return; }
 
   /**
    * Informs if the app has the permission to show notifications.
